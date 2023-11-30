@@ -1,4 +1,19 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#position .box {
+  position: relative;
+}
+#position .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3e5fac;
+  background-color: #3e5fac;
+  margin: 15px;
+  color: white;
+}
+#position .box2 {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */

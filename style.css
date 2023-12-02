@@ -7,13 +7,39 @@ body {
   position: relative;
 }
 #position .minibox {
-  width: 100px;
+  width: 200px;
   height: 100px;
   border: 2px solid #3e5fac;
   background-color: #3e5fac;
   margin: 15px;
   color: white;
+  transition: 5s;
 }
-#position .box2 {
-  position: absolute;
+#position .minibox h2 {
+  font-weight: 200px;
+  font-size: 20px;
+  margin: 10px;
+}
+#position .minibox .icon {
+  font-size: 30px;
+  margin: 0 49px;
+}
+#position .minibox:hover {
+  width: 300px;
+  background-color: #e6c762;
+  transition: 3s;
+}
+@media screen and (max-width: 500px) {
+  #position .minibox {
+    background-color: rgba(221, 144, 191, 0.4862745098);
+    border-radius: 50%;
+  }
+  #position .minibox h2 {
+    font-size: 18px;
+    margin: 25px;
+  }
+  #position .minibox .icon {
+    font-size: 25px;
+    margin-left: 52px;
+  }
 }/*# sourceMappingURL=style.css.map */
